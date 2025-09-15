@@ -35,7 +35,15 @@ export default function Page() {
             src='/hero-desktop.png'
             width={1000}
             height={760}
-            className='hidden md:block'
+            className='hidden lg:block'
+            priority={true}
+            alt='Screenshots of the dashboard project shoing desktop version'
+          />
+          <Image
+            src='/hero-mobile.png'
+            width={560}
+            height={620}
+            className='lg:hidden'
             priority={true}
             alt='Screenshots of the dashboard project shoing desktop version'
           />
